@@ -2,20 +2,29 @@
 /* CSS Document */
 
 html {
-	background: #4d4d4d;
-	font-family: raleway;
+	background: #000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 #header{
 	height: 100px;
+	background: #000000;
 }
+
 #nav-main{
 	background: #000;
-	height: 80px;
+	height: 60px;
+	padding-top: 10px;
+	padding-right: 20px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	font-stretch: semi-expanded;
 	font-size: 12pt;
 	font-style: oblique;
+	text-align: right;
+}
+
+#nav-main li{
+	display: inline;	
 }
 
 #nav-main a{
@@ -28,35 +37,136 @@ html {
 }
 
 #welcome{
-	height:auto;
+	min-height: 200px;
+	background: #000;
 	width: auto;
 }
 
-#text1{
-	height: auto;
+#heading{
+	min-height: 100px;
 	width: inherit;
+	padding-left: 30px;
+	margin-bottom: none;
 	font-size: 12pt;
 	font-style: normal;
 	color: #E5E5E5;
+	background: #000;
 }
 
 h1{
 	color: #e6a1a1;
 	font-size: 68px;
 	font-weight: bold;
-	font-family: raleway;
+	padding-left: 30px;
 }
 
+#subheading{
+	min-height: 80px;
+	text-indent: 300px;
+	font-size: 16pt;
+	font-style: normal;
+}
+
+#subheading h3{
+	align-content: flex-end;
+	color: #e5e5e5;
+}
 
 h3{
 	color: #e5e5e5;
 	
 }
 
+#text1{
+	min-height: 100px;
+	width: inherit;
+	padding-left: 30px;
+	color: #E5E5E5;
+	background: #000;
+	padding-bottom: 20px;
+}
+
+#maintext{
+	min-height: 200px;
+	width: auto;
+	padding-top: 10px;
+	padding-left: 30px;
+	background: #000;
+	color: #e5e5e5;
+}
+
+#table-cv{
+	min-height: 300px;
+	width: inherit;
+	padding-top: 30px;
+	padding-left: 20px;
+	background: #000;
+	color: #e5e5e5;
+}
+
+#textteil3{
+	min-height: 200px;
+	width: inherit;
+	padding-top: 20px;
+	padding-left: 30px;
+	background: #000;
+	color: #e5e5e5;
+}
+
+#bilder{
+	min-height: 200px;
+	width: inherit;
+	padding-top: 10px;
+	padding-left: 30px;
+	background: #000;
+	padding-left: 30px;
+}
+
+#bilder li{
+	display: inline;
+}
+
+#bild1{
+	max-width: 600px;
+	height: auto;
+}
+
+#bild2{
+	max-width: 601px;
+	height: auto;
+}
+
+#bild3{
+	max-width: 602px;
+	height: auto;
+}
+
+#kontaktteil{
+	min-height: 150px;
+	width: inherit;
+	padding-top: 10px;
+	padding-left: 30px;
+	text-align: center;
+	background: #000;
+	color: #e2e2e2;
+}
+
+#impressum1{
+	background: #000;
+	min-height: 200px;
+	width: inherit;
+	padding-left: 30px;
+	padding-top: 30px;
+	color: #E2E2E2;
+}
+
+h3 #impressum-titel{
+	font-size: 18pt;
+}
+
 #footer{
 	background-color: #000;
 	height: 200px;
-	
 }
 
 #nav-footer{
@@ -65,6 +175,8 @@ h3{
 	font-stretch: semi-expanded;
 	font-size: 12pt;
 	font-style: oblique;
+	margin-top: auto;
+	line-height: 150%;
 }
 
 #nav-footer a{
@@ -76,3 +188,22 @@ h3{
 	font-weight: bolder;
 }
 
+#socialmedia-handles{
+	margin-left: 45px;
+}
+
+#sm-icons{
+	height: 30px;
+	width: auto;
+	filter: grayscale(100%);
+}
+
+#sm-icons:hover{
+	filter: grayscale(0%)
+}
+
+h6{
+	font-size: 8pt;
+	color: #3B3B3B;
+	text-align: center;
+}
