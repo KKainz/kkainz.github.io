@@ -87,7 +87,7 @@ h3{
 }
 
 #maintext{
-	min-height: 200px;
+	min-height: 100px;
 	width: auto;
 	padding-top: 10px;
 	padding-left: 30px;
@@ -162,6 +162,11 @@ h3{
 
 h3 #impressum-titel{
 	font-size: 18pt;
+}
+
+#datenschutz1{
+	color: #e2e2e2;
+	padding-left: 30px;
 }
 
 #footer{
