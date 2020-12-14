@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+html {
+	background: #4d4d4d;
+	font-family: raleway;
+}
+
+#header{
+	height: 100px;
+}
+#nav-main{
+	background: #000;
+	height: 80px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-stretch: semi-expanded;
+	font-size: 12pt;
+	font-style: oblique;
+}
+
+#nav-main a{
+	color: antiquewhite;
+}
+
+#nav-main a:hover{
+	color: palevioletred;
+	font-weight: bolder;
+}
+
+h1{
+	color: #996B6B;
+	font-size: 68px;
+	font-weight: 200;
+	
+}
+
+
