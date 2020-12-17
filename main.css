@@ -3,7 +3,7 @@
 
 html {
 	background: #000;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family: raleway; 
 }
 
 #header{
@@ -16,7 +16,7 @@ html {
 	height: 60px;
 	padding-top: 10px;
 	padding-right: 20px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-right: 20px;
 	font-stretch: semi-expanded;
 	font-size: 12pt;
 	font-style: oblique;
@@ -176,7 +176,6 @@ h3 #impressum-titel{
 
 #nav-footer{
 	height: 180px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	font-stretch: semi-expanded;
 	font-size: 12pt;
 	font-style: oblique;
@@ -207,7 +206,7 @@ h3 #impressum-titel{
 	filter: grayscale(0%)
 }
 
-h6{
+#copyright{
 	font-size: 8pt;
 	color: #3B3B3B;
 	text-align: center;
