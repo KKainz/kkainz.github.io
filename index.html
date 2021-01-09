@@ -21,34 +21,6 @@
 		 The robots meta tag applies to all search engines, while the "googlebot" meta tag is specific to Google. -->
 		<meta name="robots" content="..., ..." />
 		<meta name="http-equiv" content="X-Robots-Tag : noindex, follow" />
-		<meta name="googlebot" content="..., ..." />	
-
-		<!-- Open Graph Meta Tags -->
-		<!-- Set the canonical URL for the page you are sharing. -->
-		<meta property="og:url" content="http://www.mySite.com/">
-		<!-- The title to accompany the URL. -->
-		<meta property="og:title" content="My Site"/>
-		<!-- Provides Facebook the name that you would like your website to be recognized by. -->
-		<meta property="og:site_name" content="My Website">
-		<!-- Provides Facebook the type of website that you would like your website to be categorized by. -->
-		<meta property="og:type" content="website">
-		<!-- Defines the language, American English is the default. -->
-		<meta property="og:locale" content="en-IN">
-		<!-- Directs Facebook to use the specified image when the page is shared. -->
-		<meta property="og:image" content="image URL">
-		<!-- Similar to the meta description tag in HTML. This description is shown below the link title on Facebook. -->
-		<meta property="og:description" content="This is site description."/>
-
-		<!-- Twitter Card data -->
-		<!-- The type of card to be created: summary, photo, or video -->
-		<meta name="twitter:card" content="summary" />
-		<!-- Title of the Twitter Card -->
-		<meta name="twitter:title" content="Title less than 70 characters" />
-		<!-- Description of content -->
-		<meta name="twitter:description" content="Description less than 200 characters" />
-		<!-- URL of image to use in the card. Used with summary, summary_large_image, player cards -->
-		<meta name="twitter:image" content="" />
-		
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-42JFJPJDGR"></script>
@@ -59,7 +31,7 @@
 
 		  gtag('config', 'G-42JFJPJDGR');
 		</script>
-		<!-- End gtag.js>
+		<!-- End gtag.js -->
 	
 	</head>
 	<body>
@@ -68,8 +40,8 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		<header>
-			<div id="header">
-			<div id="nav-main">
+			<div class="header">
+			<div class="nav-main">
 			  <nav>
 					<ul>
 						<li><a href="https://kkainz.github.io/#">about me</a></li>  |
@@ -82,13 +54,11 @@
 			</div>
 		</header>
         <main>
-			<div id="welcome">
+			<div class="welcome">
+				<!-- <img id="picture" src="watercolour-4117519_1280.png" alt="watercolor cirlce"/> -->
 				<div id="heading">
-					<h1 id="h1">Hello. I am Kristina. </h1>	
-					<div id="subheading">
-						<h3>Paid Digital Marketing Specialist</h3>
-			
-					</div>
+					<h1>Hello. I am Kristina. </h1>	
+					<h3 id="subheading">Paid Digital Marketing Specialist</h3>
 				</div>
 			</div>
 			<div id="text1">
@@ -104,53 +74,50 @@
 				<p>In the last years, I had the opportunity to work with great people on great projects and products. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto. 
 				</p>
 			</div>
-			<!-- vll besser mit divs lösen -->
-			<div id="table-cv">
-				<table>
-					<tbody>
-					<tr>
-						<td>Online Marketing Manager<br>
-						<i>software company</i></td>
-						<td>- conception, realization &amp; monitoring of Google Ads and Bing Ads campaigns (Search, Display &amp; Video) for all accounts of the DevOps Business Unit<br>
+			<div class="table-cv">
+				<div class="table-li">
+					<div id="RNR-li">
+						Online Marketing Manager<br><i>software company</i>
+					</div>
+					<div id="SP-li">
+						Google Ads Manager<br><i>digital agency</i>
+					</div>
+					<div id="HD-li">
+						Digital Campaigns Manager<br><i>beauty company</i>
+					</div>
+					<div id="SB-li">
+						Online Marketing- &amp; eCommerce Manager<br><i>energy startup</i>
+					</div>
+				</div>
+				<div class="table-re">
+					<!-- muss noch mit <ul> + <li> geändert werden -->
+					<div class="td-re">
+						- conception, realization &amp; monitoring of Google Ads and Bing Ads campaigns (Search, Display &amp; Video) for all accounts of the DevOps Business Unit<br>
 						- continuous performance optimization &amp; monitoring of KPIs using Google Analytics and CRM data (Salesforce, HubSpot &amp; close.io)<br>
 						- implementing, monitoring &amp; updating of conversion tracking with GTM<br>
 						- continuous optimization of PPC bidding of Capterra listings<br>
 						- execution of SEO analysis &amp; monitoring of website rankings<br>
 						- preparing &amp; leading SEO workshops for the content team
-						</td>
-					</tr>
-					<tr>
-						<td>Google Ads Manager<br>
-						<i>digital agency</i></td>
-						<td>
+					</div>
+					<div class="td-re">
 						- conception, realization &amp; monitoring of Google Ads campaign<br>
 						- continuous performance optimization &amp; monitoring of KPIs<br>
 						- research of keyword performance &amp; SEO analysis<br>
 						- reporting to clients
-						</td>
-					</tr>
-					<tr>
-						<td>Digital Campaigns Manager<br>
-						<i>beauty company</i></td>
-						<td>
+					</div>
+					<div class="td-re">
 						- conception, calulation, realization &amp; monitoring of paid campaigns (Google Ads, Facebook, Instagram)<br>
 						- reporting to management with recommondations for action<br>
 						- monitoring and analysis of KPIs using Google Analytics<br>
 						- content- and community management of all social media channels
-						</td>
-					</tr>
-					<tr>
-						<td>Online Marketing- &amp; eCommerce Manager<br>
-						<i>energy startup</i></td>
-						<td>
+					</div>
+					<div class="td-re">
 						- content- &amp; community management of all social media channels<br>
 						- project- &amp; community management of Kickstarter campaigns<br>
 						- creation &amp; emailing of newsletters and press releases<br>
 						- conception, calculation, realization, monitoring &amp; reporting of paid campaigns (Amazon, Google Ads, Facebook, Instagram)
-						</td>
-						</tr>	
-					</tbody>
-				</table> 
+					</div>
+				</div>
 			</div>
 			<!-- ich will vielleicht etwas in der Art verwenden, bin mir aber noch nicht sicher
 				<label for="disk_c">Disk usage C:</label>
@@ -162,19 +129,19 @@
 				</p>
 			</div>
 			<!-- portfolio bilder -->
-			<div id="bilder">
+			<div class="bilder">
 				<!-- Hierher kommen Auszüge meiner Arbeiten wie veröffentlichte Pressetexte und Ads. Ich bin noch nicht damit fertig diese zu bearbeiten, deswegen gibt es fürs erste Kätzchen-->
-				<div id="bild1"><img src="https://placekitten.com/600/360" alt="Kitty 1"/>kitty 1</div>
-				<div id="bild2"><img src="https://placekitten.com/601/360" alt="Kitty 2"/>kitty 2</div>
-				<div id="bild3"><img src="https://placekitten.com/602/360" alt="Kitty 3"/>kitty 3</div>
+				<div class="bild"><img src="https://placekitten.com/600/360" alt="Kitty 1"/>kitty 1</div>
+				<div class="bild"><img src="https://placekitten.com/601/360" alt="Kitty 2"/>kitty 2</div>
+				<div class="bild"><img src="https://placekitten.com/602/360" alt="Kitty 3"/>kitty 3</div>
 			</div>
 			<div id="kontaktteil">
 				<h2>contact me</h2>
 				<p>I am always interested in new possibilities. Do you have a exciting new project in mind or need some help scaling up your paid advertising?</p>
 				<h4>Let's talk.</h4>
 			</div>
-			<div id="contactform">contactform
-			<h4 style="color: #fff">Hier kommt das Kontaktformular hin.</h4>
+			<div class="contactform">contactform
+			<h4 style="color: #fff" align="center">Hier kommt das Kontaktformular hin.</h4>
 			</div>
 			<!-- kontaktformular 
 			<form>
@@ -195,25 +162,23 @@
 			-->
 		</main>
 		<footer>
-			<div id="footer">
-				footer<br>
+			<div class="footer">
+				foote3<br>
 				<div id="nav-footer">
-					nav-footer<br>
-				<nav>
-					<ul>
-						<li><a href="imprint.html">Imprint</a></li>
-						<li><a href="Datenschutz.html">Datenschutz</a></li>
-					</ul>
-				</nav>
-				<div id="socialmedia-handles">
-					socialmedia-handels<br>
-					<a href="https://www.facebook.com/kristina.kainz1"><img id="sm-icons" src="f_logo_RGB-Blue_1024.png" alt="Facebook"/></a>
-					<a href="https://www.linkedin.com/in/kristina-k-226891139/"><img id="sm-icons" src="LI-In-Bug.png" alt="LinkedIn"/></a>
-					<a href="https://www.instagram.com/__krissi_k__/"><img id="sm-icons" src="ig-icon.png" alt="Instagram"/></a>
-					<div id="copyright">
-					<p>&#169; 2020 Kristina Kainz </p>
-					</div>
+					<nav>
+						<ul>
+							<li><a href="imprint.html">Imprint</a></li>
+							<li><a href="Datenschutz.html">Privacy</a></li>
+						</ul>
+					</nav>
 				</div>
+				<div class="socialmedia-handles">
+					<a href="https://www.facebook.com/kristina.kainz1"><img class="sm-icons" src="f_logo_RGB-Blue_1024.png" alt="Facebook"/></a>
+					<a href="https://www.linkedin.com/in/kristina-k-226891139/"><img class="sm-icons" src="LI-In-Bug.png" alt="LinkedIn"/></a>
+					<a href="https://www.instagram.com/__krissi_k__/"><img class="sm-icons" src="ig-icon.png" alt="Instagram"/></a>
+				</div>
+				<div id="copyright">
+					<p>&#169; 2021 Kristina Kainz </p>
 				</div>
 			</div>
 		</footer>
