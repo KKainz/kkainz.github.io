@@ -6,12 +6,12 @@ html {
 	font-family: raleway; 
 }
 
-#header{
+.header{
 	height: 100px;
 	background: #000000;
 }
 
-#nav-main{
+.nav-main{
 	background: #000;
 	height: 60px;
 	padding-top: 10px;
@@ -23,15 +23,15 @@ html {
 	text-align: right;
 }
 
-#nav-main li{
+.nav-main li{
 	display: inline;	
 }
 
-#nav-main a{
+.nav-main a{
 	color: #e5e5e5;
 }
 
-#nav-main a:hover{
+.nav-main a:hover{
 	color: #E6A1A1;
 	font-weight: bolder;
 }
@@ -95,51 +95,94 @@ h3{
 	color: #e5e5e5;
 }
 
-#table-cv{
-	min-height: 300px;
+.table-cv{
+	height: 420px;
 	width: inherit;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 55px;
 	background: #000;
 	color: #e5e5e5;
 }
 
+.table-li{
+	color: #E5E5E5;
+	width: 400px;
+	float: left;
+	width: 28%;
+	padding: 10px;
+}
+
+.table-re{
+	color: #e5e5e5;
+	width: 400px;
+	float: left;
+	width: 69%;
+	padding: 10px;
+		
+}
+
+#RNR-li{
+	height: 130px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+#SP-li{
+	height: 80px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	
+}
+
+#HD-li{
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#SB-li{
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.td-re{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+
 #textteil3{
-	min-height: 200px;
+	min-height: auto;
 	width: inherit;
 	padding-top: 20px;
 	padding-left: 30px;
+	padding-bottom: 10px;
 	background: #000;
 	color: #e5e5e5;
 }
 
-#bilder{
-	min-height: 200px;
-	width: inherit;
+.bilder{
+	min-height: 770px;
+	width: auto;
 	padding-top: 10px;
 	padding-left: 30px;
 	background: #000;
-	padding-left: 30px;
+	padding-right: 10px;
+	padding-bottom: 40px;
 }
 
-#bilder li{
-	display: inline;
+.bild{
+	float: left;
+	width: 45%;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 15px;
 }
 
-#bild1{
-	max-width: 600px;
-	height: auto;
-}
-
-#bild2{
-	max-width: 601px;
-	height: auto;
-}
-
-#bild3{
-	max-width: 602px;
-	height: auto;
-}
 
 #kontaktteil{
 	min-height: 150px;
@@ -169,7 +212,7 @@ h3 #impressum-titel{
 	padding-left: 30px;
 }
 
-#footer{
+.footer{
 	background-color: #000;
 	height: 200px;
 }
@@ -192,17 +235,17 @@ h3 #impressum-titel{
 	font-weight: bolder;
 }
 
-#socialmedia-handles{
+.socialmedia-handles{
 	margin-left: 45px;
 }
 
-#sm-icons{
+.sm-icons{
 	height: 30px;
 	width: auto;
 	filter: grayscale(100%);
 }
 
-#sm-icons:hover{
+.sm-icons:hover{
 	filter: grayscale(0%)
 }
 
