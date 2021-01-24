@@ -184,7 +184,7 @@ h3{
 	padding-bottom: 40px;
 	display: flex;
 	flex-flow: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .picture{
