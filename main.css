@@ -10,6 +10,7 @@ html {
     padding-bottom: 5px;
     min-width: 320px;
     min-height: 568px;
+	color: #e5e5e5;
 }
 
 body{
@@ -21,6 +22,31 @@ header{
     height: 80px;
     background: #000000;
 	justify-content: flex-end;
+}
+
+a{
+	color: #e5e5e5;
+}
+
+a:hover{
+	color: #a66ddb;
+	font-weight: bolder;
+}
+
+h2{
+	color: #a66ddb;
+}
+
+h3{
+	color: #e5e5e5;	
+}
+
+h1{
+    color: #a66ddb;
+    font-size: 68px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-left: 30px;
 }
 
 .nav-main{
@@ -35,17 +61,10 @@ header{
 
 .nav-main li{
 	display: inline;
-	gap: 2rem;
 }
 
 .nav-main a{
-    color: #e5e5e5;
-    right: 2rem;
-}
-
-.nav-main a:hover{
-	color: #a66ddb;
-	font-weight: bolder;
+    margin-right: 1rem;
 }
 
 .welcome{
@@ -58,14 +77,6 @@ header{
 	flex-basis: 100%;
 }
 
-h1{
-    color: #a66ddb;
-    font-size: 68px;
-    font-weight: bold;
-    padding-left: 30px;
-    margin-left: 30px;
-}
-
 #subheading{
 	min-height: 80px;
 	text-indent: 300px;
@@ -73,14 +84,6 @@ h1{
 	font-style: normal;
 	padding-left: 30px;
 	margin-top: -35px;
-}
-
-h2{
-	color: #a66ddb;
-}
-
-h3{
-	color: #e5e5e5;	
 }
 
 .intro{
@@ -163,9 +166,7 @@ h3{
 .td-re{
 	padding-bottom: 10px;
 	padding-top: 10px;
-	
 }
-
 
 .selectwork{
 	min-height: auto;
@@ -212,24 +213,6 @@ h3{
 	text-align: center;
 }
 
-#impressum1{
-	background: #000;
-	min-height: 200px;
-	width: inherit;
-	padding-left: 30px;
-	padding-bottom: 40px;
-	color: #E2E2E2;
-}
-
-h3 #impressum-titel{
-	font-size: 18pt;
-}
-
-#datenschutz1{
-	color: #e2e2e2;
-	padding-left: 30px;
-}
-
 footer{
 	background-color: #000;
 	height: auto;
@@ -246,15 +229,6 @@ footer{
 	align-self: flex-start;
 	flex-basis: 50%;
 	order: 1;
-}
-
-.nav-footer a{
-	color: #e5e5e5;
-}
-
-.nav-footer a:hover{
-	color: #a66ddb;
-	font-weight: bolder;
 }
 
 .socialmedia-handles{
@@ -288,4 +262,24 @@ footer{
 	flex-basis: 100%;
 }
 
+.imprint{
+	background: #000;
+	min-height: 200px;
+	width: inherit;
+	padding-left: 30px;
+	padding-bottom: 40px;
+	color: #E2E2E2;
+}
 
+div.impressum-titel > H3{
+	font-size: 18pt;
+}
+
+.dataprotection{
+	color: #e2e2e2;
+	padding-left: 30px;
+}
+
+.content-table a{
+	margin-bottom: 1rem;
+}
