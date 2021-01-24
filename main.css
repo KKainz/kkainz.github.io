@@ -47,6 +47,12 @@ h1{
     font-weight: bold;
     padding-left: 30px;
     margin-left: 30px;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+ul{
+	list-style-type: none;
 }
 
 .nav-main{
@@ -70,6 +76,7 @@ h1{
 .welcome{
     background-color: #000;
     width: auto;
+	min-height: 120px;
     background-image: url(decorative-arrow-purple.png);
     background-repeat: no-repeat;
     background-position: right top;
@@ -217,7 +224,6 @@ footer{
 	background-color: #000;
 	height: auto;
 	font-size: 12pt;
-	font-style: oblique;
 	display: flex;
 	flex-flow: wrap;
 }
@@ -256,6 +262,7 @@ footer{
 .copyright{
 	max-height: 10px;
     font-size: 8pt;
+	font-style: italic;
     color: #3B3B3B;
     text-align: center;
 	order: 3;
@@ -275,11 +282,49 @@ div.impressum-titel > H3{
 	font-size: 18pt;
 }
 
-.dataprotection{
-	color: #e2e2e2;
-	padding-left: 30px;
+.content-table{
+	margin-top: 75px;
 }
 
-.content-table a{
-	margin-bottom: 1rem;
+div.content-table a{
+	text-decoration: none;
+}
+
+div.content-table > ul{
+	list-style-type: square;
+}
+
+div.content-table li{
+	margin-bottom: 0.5rem;
+}
+
+.privacy-content{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+div#data-retention > ul{
+	list-style-type: square;
+}
+
+div#cookies > ul{
+	list-style-type: circle;
+}
+
+div#gdpr-rights > ul{
+	list-style-type: square;
+}
+
+div#ga-policy > ul{
+	list-style-type: circle;
+}
+
+#sourceeee{
+	font-size: 10pt;
+	color: gray;
 }
