@@ -249,7 +249,7 @@ ul{
 
 .button1:before {
     content: '';
-    background: linear-gradient(45deg, #f56762, #ff66a1, #e868da, #d66df2, #a66ddb, #8e6df2, #686ce8, #6693ff, #62b4fs);
+    background: radial-gradient(#f56762, #ff66a1, #e868da, #d66df2, #a66ddb, #8e6df2, #686ce8, #6693ff, #62B4F5);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -265,11 +265,12 @@ ul{
 }
 
 .button1:active {
-    color: #000
+    color: #a66ddb;
 }
 
 .button1:active:after {
-    background: transparent;
+    background: #a66ddb;
+	color: #fff;
 }
 
 .button1:hover:before {
