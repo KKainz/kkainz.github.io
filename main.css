@@ -247,9 +247,9 @@ ul{
     border-radius: 10px;
 }
 
-.glow-on-hover:before {
+.button1:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #f56762, #ff66a1, #e868da, #d66df2, #a66ddb, #8e6df2, #686ce8, #6693ff, #62b4fs);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -264,19 +264,19 @@ ul{
     border-radius: 10px;
 }
 
-.glow-on-hover:active {
+.button1:active {
     color: #000
 }
 
-.glow-on-hover:active:after {
+.button1:active:after {
     background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.button1:hover:before {
     opacity: 1;
 }
 
-.glow-on-hover:after {
+.button1:after {
     z-index: -1;
     content: '';
     position: absolute;
