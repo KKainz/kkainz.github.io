@@ -122,8 +122,29 @@ ul{
 	background: #000;
 	color: #e5e5e5;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 }
+
+.table-row{
+	display: flex;
+	align-items: flex-start;
+	flex-basis: 100%;
+}
+
+.table-role{
+	flex-basis: 25%;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+
+.table-work{
+	flex-basis: 75%;
+}
+
+div.table-work > ul{
+	list-style-type: square;
+}
+
 
 .table-li{
 	color: #E5E5E5;
